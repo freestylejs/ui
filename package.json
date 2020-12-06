@@ -6,7 +6,10 @@
     "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
-    "lint": "ng lint"
+    "lint": "ng lint",
+    "build_components": "ng build components",
+    "pack_components": "cd dist/components && npm pack",
+    "package_components": "npm run build_components && npm run pack_components"
   },
   "private": true,
   "dependencies": {
