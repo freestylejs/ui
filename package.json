@@ -1,13 +1,14 @@
 {
-  "name": "ui",
-  "version": "0.0.0",
+  "name": "@freestylejs/ui",
+  "version": "0.0.0-NOT-USED",
+  "description": "Angular UI components",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "build_components": "ng build components",
+    "build_components": "ng build --prod components",
     "pack_components": "cd dist/components && npm pack",
     "package_components": "npm run build_components && npm run pack_components"
   },
