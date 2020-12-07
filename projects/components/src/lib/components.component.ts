@@ -1,20 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'lib-components',
-  template: `
-    <p>
-      components works!
-    </p>
-  `,
-  styles: [
-  ]
+  selector: 'fs-components',
+  template: ` <p>components works!</p> `,
+  styles: [],
 })
 export class ComponentsComponent implements OnInit {
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+  ngOnInit(): void {}
 }
