@@ -1,6 +1,22 @@
 {
-  "name": "@freestylejs/ui",
+  "name": "@freestyle/ui",
   "version": "0.0.1",
+  "description": "Themed UI components for Angular.",
+  "keywords": [
+    "freestyle",
+    "themed",
+    "angular",
+    "frontend"
+  ],
+  "homepage": "https://github.com/freestylejs/ui",
+  "bugs": {
+    "url": "https://github.com/freestylejs/ui/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/freestylejs/ui",
+    "directory": "projects/components"
+  },
   "peerDependencies": {
     "@angular/common": "^11.0.3",
     "@angular/core": "^11.0.3"
