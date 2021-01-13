@@ -1,6 +1,7 @@
 {
   "name": "@freestyle/ui",
   "version": "0.0.1",
+  "license": "MIT",
   "description": "Themed UI components for Angular.",
   "keywords": [
     "freestyle",
