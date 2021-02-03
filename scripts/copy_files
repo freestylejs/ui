@@ -1,0 +1,4 @@
+#!/bin/bash
+
+cp ./LICENSE ./dist/components
+cp ./README.md ./dist/components

@@ -28,8 +28,9 @@
     "lint": "ng lint",
     "build_components": "ng build --prod components",
     "pack_components": "cd dist/components && npm pack",
-    "package_components": "npm run build_components && npm run pack_components",
-    "commit": "cz"
+    "package_components": "npm run build_components && ./scripts/copy_files && npm run pack_components",
+    "commit": "cz",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s --pkg projects/components/package.json"
   },
   "private": true,
   "dependencies": {
@@ -41,6 +42,7 @@
     "@angular/platform-browser": "~11.0.3",
     "@angular/platform-browser-dynamic": "~11.0.3",
     "@angular/router": "~11.0.3",
+    "conventional-changelog-cli": "^2.1.1",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.2"
